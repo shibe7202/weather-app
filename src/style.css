@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    height: 100vh;
+}
+
+body > div {
+    height: 150px;
+}
+
+.input-group {
+    height: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.input-group > img {
+    max-height: 32px;
+    filter: invert(91%) sepia(11%) saturate(4930%) hue-rotate(170deg) brightness(101%) contrast(84%);
+}
+
+#search-input {
+    width: 300px;
+    height: 32px;
+    border: 1px solid #efecf3;
+    border-radius: 50rem;
+    box-shadow: 0 .125rem .125rem -.125rem rgba(31,27,45,.08),0 .25rem .75rem rgba(31,27,45,.08);
+    margin-left: 6px;
+    margin-right: 12px;
+}
+
+#search-button {
+    height: 24px;
+    padding: 2px 6px 2px 6px;
+}
+
+input::placeholder {
+    padding-left: 12px;
+    align-self: center;
+}
+
+p {
+    color: red;
+}
